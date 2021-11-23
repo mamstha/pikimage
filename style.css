@@ -1,0 +1,407 @@
+ @font-face{
+    src: url(fonts/axiforma/Kastelov\ -\ Axiforma\ Medium.otf);
+    font-family: axiforma;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#4D5E49;
+    font-family: axiforma;
+    width: 1440px;
+}
+h2{
+    color: #000000;
+    font-weight:600;
+    font-size: 24px;
+    vertical-align: top;
+    margin-top: 58px;
+
+}
+p{
+    font-style:normal;
+    font-size: 12px;
+    text-align: left;
+    vertical-align: top;
+}
+a{
+    color: #000000;
+    font-size: 16px;
+
+}
+
+.wrap{
+    width: 570px;
+    background: #ffffff;
+    margin: 0px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px #FFFFFF;
+    padding-bottom: 20px;
+    
+}
+
+.wrap .cross{
+    float: right;
+    width: 24px;
+    height: 24px;
+    margin: 25px;
+}
+
+.wrap .container{
+    padding: 0 135px;
+    margin: 0 auto;
+}
+.wrap .container .logo{
+    display: flex;
+    padding-top: 89.39px;
+}
+.wrap .container .logo .logoText{
+    margin: 6px 0 0 3px;
+    line-height: 19.1px;
+}
+
+.wrap .container .check-mail{
+    margin-top: 34.22px    ;
+}
+
+.wrap .container .check-mail .content h2{
+    font-size: 32px;
+    margin-top: 0px;
+}
+
+.wrap .container .check-mail .content p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.1px;
+    font-family: axiforma;
+}
+
+.wrap .container .form .form-row{
+    margin-top: 42px;
+}
+
+
+
+.wrap .container .form .form-row .form-row-input .form-row-input-box{
+    width: 100%;
+    padding: 12px 20px 12px 20px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.34px;
+    border: 1px solid 
+    rgba(0, 0, 0, 0.37);
+    border-radius: 4px;
+    margin-bottom: 32px;
+}
+
+
+.wrap .container .form .form-row .form-row-input.box{
+    position: relative;
+}
+
+.wrap .container .form .form-row .form-row-input .password{
+    position: absolute;
+    top: -8px;
+    left: 20px;
+    color:#64BC4E;
+    background: #ffffff;
+    padding: 0px 3px;
+}
+
+ .wrap .container .form .form-row .form-row-input .password.warning{
+    position: absolute;
+    top: 3px;
+    left: 20px;
+    color: #FF0000;
+    background: #ffffff;
+}
+
+
+.wrap .container .form .form-row .form-row-input.box.warning input{
+    border: 1px solid #FF0000;
+    padding: 15px;
+} 
+
+.wrap .container .form .form-row .form-row-input .password.alert {
+    color: #FF0000;
+}
+
+
+.wrap .container .form .form-row .form-row-input.box.alert {
+    display: flex;
+    color: #FF0000;
+    font-size: 12px;
+}
+
+
+
+.wrap .container .form .form-row .form-row-input.box input{
+    border: 1px solid #64BC4E;
+    padding: 15px;
+}
+
+.wrap .container .form .form-row .form-row-input.box .condition{
+    color: #B8B8B8;
+    margin-top: -15px;
+    margin-bottom: -10px;
+    font-size: 12px;
+}
+
+
+.wrap .container .form .form-row .form-row-input .eye-icon{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: #64BC4E;
+    margin-right: 17px;
+    font-size: 12px;
+}
+
+.wrap .container .form .form-row .form-row-input.checkbox {
+    margin-bottom: 40px;
+}
+.wrap .container .form .form-row .form-row-input.checkbox .spacing{
+   display: flex;
+   justify-content: space-between;
+}
+
+.wrap .container .form .form-row .form-row-input.checkbox .custom{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.wrap .container .form .form-row .form-row-input.checkbox .custom input:checked ~ .custom-checkbox {
+    background-color: #64BC4E;
+}
+
+.wrap .container .form .form-row .form-row-input.checkbox .custom::after{
+    content: "";
+    position: absolute;
+    display: block;
+}
+
+.wrap .container .form .form-row .form-row-input.checkbox .custom .custom-checkbox::after{
+    left: 6px;
+    bottom: 5px;
+    width: 6px;
+    height: 6px;
+    border: solid #ffffff;
+    border-width: 4px;
+}
+
+.wrap .container .form .form-row .form-row-input.checkbox .form-row-input-checkbox{
+    color: #64BC4E;
+    visibility:visible;
+}
+
+.wrap .container .form .form-row .form-row-input.checkbox .form-row-input-checkbox .custom-checkbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #64BC4E;
+}
+.wrap .container .form .form-row .form-row-input.checkbox .checkbox-remember{
+    color:#00000099 ;
+    margin-top: -5px;
+    padding-left: 5px;
+}
+
+.wrap .container .form .form-row .form-row-input.checkbox .checkbox-remember a{
+    color: #64BC4E;
+}
+
+.wrap .container .form .form-row .form-row-input.checkbox .checkbox-content{
+    padding: 5px;
+    color: #64BC4E;
+    text-decoration: underline;
+}
+
+.wrap .container .form .form-row .form-row-input .form-row-input-btn {
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 0 ;
+    background:#64BC4E;
+    border-radius: 4px;
+    box-shadow:  0 2px 15px rgba(0,0,0,0.2);
+}
+
+.wrap .container .form .form-row .form-row-input.box{
+    margin-top: 20px;
+}
+
+
+
+.wrap .container .form .form-row .form-row-input.box input{
+    margin-bottom: 24px;
+}
+
+.wrap .container .content{
+  
+}
+
+.wrap .container .content-1.text{
+    margin: 20px;
+}
+
+.wrap .container .content-1{
+    font-size: 12px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 19.1px;
+    text-align: center;
+    margin-top: 24px;
+
+}
+
+.wrap .container .content-2.text{
+    color: #000000;
+    text-decoration: none;
+    margin-top: 40px;
+
+}
+.wrap .container .content-2{
+    font-size: 12px;
+    color: #FF0000;
+    text-decoration: underline;
+    font-weight: 500;
+    line-height: 19.1px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+.wrap .container .content-2 .link{
+    color: #64BC4E;
+    font-size: 12px;
+}
+ .form-row-input.checkbox.form-row-input-checkbox
+hr{
+    position: relative;
+}
+
+.wrap .container .line .line-text{
+    position: absolute;
+    top: 0 center;
+
+}
+
+.wrap .container .line{
+    position: relative;
+}
+
+.wrap .container .line hr{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-top: 8px;
+
+}
+
+ .wrap .container .line .or {
+    background-color: white;
+    position: absolute;
+    left:45% ;
+}
+
+.wrap .container .social{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #64BC4E;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 7px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow:  0 2px 20px rgba(0,0,0,0.08);
+
+}
+
+.wrap .container .social .google-logo{
+    height: 16px;
+    width: 16px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.wrap .container .social .content-3{
+    color: #64BC4E;
+    font-size: 16px;
+    vertical-align: top;
+    margin-top: 7px;
+}
+
+.wrap .container .footer-content{
+    padding-bottom: 200px;
+}
+
+.wrap .container .form .form-row .form-row-input .form-row-input-btn.footer{
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+@media only screen and (max-width:480px){
+    
+    body{
+        width: 480px;
+    }
+
+    h2{
+        font-weight:600;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .wrap{
+        width: 480px;
+    }
+
+    .wrap .cross{
+        width: 10px;
+        height: 10px;
+    }
+
+    .wrap .container .logo .logoText img{
+        width: 150px;
+        margin-bottom: 30px;
+    }
+    
+    .wrap .container .logo .logoImg img{
+        width: 30px;
+       
+    }
+
+    .wrap .container .form .form-row{
+        margin-top: 20px;
+    }
+
+    .wrap .container .form .form-row .form-row-input .form-row-input-box{
+        width: 100%;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .wrap .container .form .form-row .form-row-input.checkbox .checkbox-remember{
+        font-size: 12px;
+    }
+       
+}
+
+    
+
+    
+
+       
+
+    
